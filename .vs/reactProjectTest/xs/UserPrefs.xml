@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{E4545377-C60C-4D24-90F4-B5C37BDF6372}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="reactProjectTest/ClientApp/src/store/Counter.ts">
+    <Files>
+      <File FileName="reactProjectTest/ClientApp/src/components/FetchData.tsx" Line="22" Column="32" />
+      <File FileName="reactProjectTest/ClientApp/src/components/Counter.tsx" />
+      <File FileName="reactProjectTest/ClientApp/src/store/Counter.ts" Line="53" Column="27" />
+      <File FileName="reactProjectTest/ClientApp/src/store/index.ts" />
+      <File FileName="reactProjectTest/ClientApp/src/store/WeatherForecasts.ts" />
+      <File FileName="reactProjectTest/ClientApp/src/store/configureStore.ts" />
+      <File FileName="reactProjectTest/ClientApp/src/index.tsx" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="reactProjectTest" expanded="True">
+            <Node name="reactProjectTest" expanded="True">
+              <Node name="ClientApp" expanded="True">
+                <Node name="public" expanded="True" />
+                <Node name="src" expanded="True">
+                  <Node name="components" expanded="True" />
+                  <Node name="store" expanded="True">
+                    <Node name="Counter.ts" selected="True" />
+                  </Node>
+                  <Node name="App.tsx" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.reactProjectTest PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
