@@ -22,6 +22,7 @@ interface ICounterDispatchProps {
     decrement: () => void;
 }
 
+//exercise two
 class Counter extends React.PureComponent<CounterProps> {
     public render() {
         return (
@@ -34,8 +35,14 @@ class Counter extends React.PureComponent<CounterProps> {
 
                 <button type="button"
                     className="btn btn-primary btn-lg"
-                    onClick={() => { this.props.increment(); }}>
+                    onClick={() => { this.props.setCount(this.props.count + 1); }}>
                     Increment
+                </button>
+                
+                <button type="button"
+                    className="btn btn-primary btn-lg"
+                    onClick={() => { this.props.setCount(0); }}>
+                    Reset
                 </button>
             </React.Fragment>
         );

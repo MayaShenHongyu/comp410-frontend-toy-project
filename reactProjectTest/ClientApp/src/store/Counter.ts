@@ -52,7 +52,8 @@ export const reducer: Reducer<CounterState> = (state: CounterState | undefined, 
     //const action = incomingAction as ConterAction;
     switch (action.type) {
         case 'INCREMENT_COUNT':
-            return { count: state.count + 1 };
+            // change this for exercise 1
+            return { count: state.count + 2 };
         case 'DECREMENT_COUNT':
             return { count: state.count - 1 };
         case ActionType.SetCount:
